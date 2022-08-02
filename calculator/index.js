@@ -19,7 +19,7 @@ function createListNumbers() {
     ul.appendChild(result_li);
 
 
-    for(let i = 1; i <= list_of_numbers.value; i++){
+    for(let i = 10; i <= list_of_numbers.value; i+=10){
 
         var li = document.createElement('li');
 
