@@ -21,6 +21,6 @@ function createListNumbers() {
 
     ul.appendChild(li);
 
-    li.innerHTML = i + " = " + divide_by.value / i;
+    li.innerHTML = divide_by.value + "/" + i + " = " + divide_by.value / i;
   }
 }
