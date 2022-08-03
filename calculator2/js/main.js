@@ -18,9 +18,15 @@ for (var i = 0; i < inputs.length; i++) {
       // check if number is integer or decimal
 
       if (this.value / parent_id == Math.floor(this.value / parent_id)) {
-        input_items[i].innerHTML = this.value / parent_id;
+        input_items[i].innerHTML =
+          this.value + "/" + parent_id + " = " + this.value / parent_id;
       } else {
-        input_items[i].innerHTML = (this.value / parent_id).toFixed(1);
+        input_items[i].innerHTML =
+          this.value +
+          "/" +
+          parent_id +
+          " = " +
+          (this.value / parent_id).toFixed(1);
       }
     }
   });
