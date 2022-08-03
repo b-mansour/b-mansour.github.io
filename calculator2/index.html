@@ -1,281 +1,291 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-  	<title>calculator</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>calculator</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	<link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-	</head>
-	<body>
-	<section class="ftco-section">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-6 text-center mb-5">
-					<h2 class="heading-section">Calculator</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="table-wrap">
-						<table class="table">
-						  <thead class="thead-dark">
-							<tr>
-								<th>no.</th>
-								<th>VNAGEFX</th>
-								<th>DTT</th>
-								<th>FTMO 2</th>
-								<th>FTMO</th>
-							  </tr>
-						    <tr>
-						      <th>&nbsp;</th>
-						      <th><input class="form-control" id = "vnagfx" type="number"></th>
-						      <th><input class="form-control" id = "dtt" type="number"></th>
-						      <th><input class="form-control" id = "ftmo2" type="number"></th>
-						      <th><input class="form-control" id = "ftmo" type="number"></th>
-						    </tr>
-						  </thead>
-						  <tbody>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center mb-5">
+            <h2 class="heading-section">Calculator</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="table-wrap">
+              <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th>no.</th>
+                    <th>VNAGEFX</th>
+                    <th>DTT</th>
+                    <th>FTMO 2</th>
+                    <th>FTMO</th>
+                  </tr>
+                  <tr>
+                    <th>&nbsp;</th>
+                    <th>
+                      <input class="form-control" id="vnagfx" type="number" />
+                    </th>
+                    <th>
+                      <input class="form-control" id="dtt" type="number" />
+                    </th>
+                    <th>
+                      <input class="form-control" id="ftmo2" type="number" />
+                    </th>
+                    <th>
+                      <input class="form-control" id="ftmo" type="number" />
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr id="30" class="alert" role="alert">
+                    <th scope="row">30</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							<tr id = "30" class="alert" role="alert">
-								<th scope="row">30</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
-							
-							<tr id = "40" class="alert" role="alert">
-								<th scope="row">40</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
-						    <tr id = "50" class="alert" role="alert">
-						      <th scope="row">50</th>
-						      <td class="vnagfx">vnagfx</td>
-						      <td class = "dtt">dtt</td>
-						      <td class = "ftmo2">ftmo2</td>
-							  <td class = "ftmo">ftmo</td>
-						    </tr>
-						    <tr id = "60"class="alert" role="alert">
-						      <th scope="row">60</th>
-						      <td class="vnagfx">vnagfx</td>
-						      <td class = "dtt">dtt</td>
-						      <td class = "ftmo2">ftmo2</td>
-							  <td class = "ftmo">ftmo</td>
-						    </tr>
-						    <tr id= "70"class="alert" role="alert">
-						      <th scope="row">70</th>
-						      <td class="vnagfx">vnagfx</td>
-						      <td class = "dtt">dtt</td>
-						      <td class = "ftmo2">ftmo2</td>
-							  <td class = "ftmo">ftmo</td>
-						    </tr>
-						    <tr id = "80" class="alert" role="alert">
-						      <th scope="row">80</th>
-						      <td class="vnagfx">vnagfx</td>
-						      <td class = "dtt">dtt</td>
-						      <td class = "ftmo2">ftmo2</td>
-							  <td class = "ftmo">ftmo</td>
-						    </tr>
-						    <tr id = "90" class="alert" role="alert">
-						      <th scope="row">90</th>
-							  <td class="vnagfx">vnagfx</td>
-						      <td class = "dtt">dtt</td>
-						      <td class = "ftmo2">ftmo2</td>
-							  <td class = "ftmo">ftmo</td>
-						    </tr>
+                  <tr id="40" class="alert" role="alert">
+                    <th scope="row">40</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
+                  <tr id="50" class="alert" role="alert">
+                    <th scope="row">50</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
+                  <tr id="60" class="alert" role="alert">
+                    <th scope="row">60</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
+                  <tr id="70" class="alert" role="alert">
+                    <th scope="row">70</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
+                  <tr id="80" class="alert" role="alert">
+                    <th scope="row">80</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
+                  <tr id="90" class="alert" role="alert">
+                    <th scope="row">90</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							<tr  id = "100" class="alert" role="alert">
-								<th scope="row">100</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
+                  <tr id="100" class="alert" role="alert">
+                    <th scope="row">100</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							  <tr id = "110" class="alert" role="alert">
-								<th scope="row">110</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
-							  <tr id="120" class="alert" role="alert">
-								<th scope="row">120</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
+                  <tr id="110" class="alert" role="alert">
+                    <th scope="row">110</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
+                  <tr id="120" class="alert" role="alert">
+                    <th scope="row">120</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							  <tr id="130" class="alert" role="alert">
-								<th scope="row">130</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
+                  <tr id="130" class="alert" role="alert">
+                    <th scope="row">130</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							  <tr id="140" class="alert" role="alert">
-								<th scope="row">140</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>  
-							  
-							  <tr id="150" class="alert" role="alert">
-								<th scope="row">150</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>  
-							  
-							  <tr id="160" class="alert" role="alert">
-								<th scope="row">160</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>  
-							  
-							  <tr id="170" class="alert" role="alert">
-								<th scope="row">170</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>  
-							  
-							  <tr id="180" class="alert" role="alert">
-								<th scope="row">180</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>  
+                  <tr id="140" class="alert" role="alert">
+                    <th scope="row">140</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							  <tr id="190" class="alert" role="alert">
-								<th scope="row">190</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
+                  <tr id="150" class="alert" role="alert">
+                    <th scope="row">150</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							  <tr id="200" class="alert" role="alert">
-								<th scope="row">200</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
+                  <tr id="160" class="alert" role="alert">
+                    <th scope="row">160</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							  <tr id="210" class="alert" role="alert">
-								<th scope="row">210</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
+                  <tr id="170" class="alert" role="alert">
+                    <th scope="row">170</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
+                  <tr id="180" class="alert" role="alert">
+                    <th scope="row">180</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							  <tr id="220" class="alert" role="alert">
-								<th scope="row">220</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
+                  <tr id="190" class="alert" role="alert">
+                    <th scope="row">190</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
+                  <tr id="200" class="alert" role="alert">
+                    <th scope="row">200</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							  <tr id="230" class="alert" role="alert">
-								<th scope="row">230</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
+                  <tr id="210" class="alert" role="alert">
+                    <th scope="row">210</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							  <tr id="240" class="alert" role="alert">
-								<th scope="row">240</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
+                  <tr id="220" class="alert" role="alert">
+                    <th scope="row">220</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							  <tr id="250" class="alert" role="alert">
-								<th scope="row">250</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
+                  <tr id="230" class="alert" role="alert">
+                    <th scope="row">230</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							  <tr id="260" class="alert" role="alert">
-								<th scope="row">260</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
+                  <tr id="240" class="alert" role="alert">
+                    <th scope="row">240</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							  <tr id="270" class="alert" role="alert">
-								<th scope="row">270</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
+                  <tr id="250" class="alert" role="alert">
+                    <th scope="row">250</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							  <tr id="280" class="alert" role="alert">
-								<th scope="row">280</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
+                  <tr id="260" class="alert" role="alert">
+                    <th scope="row">260</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							  <tr id="290" class="alert" role="alert">
-								<th scope="row">290</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
+                  <tr id="270" class="alert" role="alert">
+                    <th scope="row">270</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-							  <tr id="300" class="alert" role="alert">
-								<th scope="row">300</th>
-								<td class="vnagfx">vnagfx</td>
-								<td class = "dtt">dtt</td>
-								<td class = "ftmo2">ftmo2</td>
-								<td class = "ftmo">ftmo</td>
-							  </tr>
+                  <tr id="280" class="alert" role="alert">
+                    <th scope="row">280</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
+                  <tr id="290" class="alert" role="alert">
+                    <th scope="row">290</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
 
-						  </tbody>
-						</table>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                  <tr id="300" class="alert" role="alert">
+                    <th scope="row">300</th>
+                    <td class="vnagfx">vnagfx</td>
+                    <td class="dtt">dtt</td>
+                    <td class="ftmo2">ftmo2</td>
+                    <td class="ftmo">ftmo</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<script src="js/jquery.min.js"></script>
-  <script src="js/popper.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
-
-	</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
-
