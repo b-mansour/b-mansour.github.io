@@ -21,6 +21,13 @@ function createListNumbers() {
 
     ul.appendChild(li);
 
-    li.innerHTML = divide_by.value + "/" + i + " = " + divide_by.value / i;
+    // check if number is integer or decimal
+
+    if (divide_by.value / i == Math.floor(divide_by.value / i)) {
+      li.innerHTML = divide_by.value + "/" + i + " = " + divide_by.value / i;
+    } else {
+      li.innerHTML =
+        divide_by.value + "/" + i + " = " + (divide_by.value / i).toFixed(1);
+    }
   }
 }
