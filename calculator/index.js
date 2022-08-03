@@ -26,7 +26,7 @@ function createListNumbers() {
 
         ul.appendChild(li);
 
-        li.innerHTML = i + " = " + i / divide_by.value;
+        li.innerHTML = i + " = " + divide_by.value / i ;
 
     }
 
