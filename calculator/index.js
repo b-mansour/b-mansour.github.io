@@ -9,7 +9,6 @@ divide_by.addEventListener("change", createListNumbers);
 function createListNumbers() {
 
     const ul = document.getElementById("list-numbers");
-    
     ul.innerHTML = '';
 
     var result_li = document.createElement('li');
